@@ -4,6 +4,6 @@
 
 ## Installation: 
 
-1. Search information how to install python3 and SQLite on your system.
+1. Search information how to install Python3 and SQLite on your system.
 2. Download the source code
-3. Run the main file with Python3
+3. Run the main file (main.py) with Python3
