@@ -1,15 +1,44 @@
 import bikes #importing bikes.py module
 
-print()
-print("Distance sum for user555:", bikes.distance_of_user("user555")) #printing distance sum of user555
-print()
-print("AVG Speed for user555:", bikes.speed_of_user("user555")) #printing average speed of user555
-print()
-print("Duration sum for each city for 2021-06-15:", bikes.duration_in_each_city("2021-06-15")) #printing duration sum of each city on 2021-06-15
-print()
-print("User amount for city7", bikes.users_in_city("city7")) #printing users in city7
-print()
-print("Daily trip amount for city7:", bikes.trips_on_each_day("city7")) #printing trips on each day in city7
-print()
-print("Most popular station and number of trips for city7:", bikes.most_popular_start("city7")) #printing most popular start station and number of trips in city7
-print()
+
+while True:
+
+    input_command = int(input('''
+    0. Exit
+    1. Distance sum for user
+    2. Average speed for user
+    3. Duration sum for each city for a day
+    4. User amount for a city
+    5. Daily trip amount for a city
+    6. Most popular station and number of trips for a city
+
+    Give a number to choose a command: '''))
+
+    print()
+    if input_command == 0:
+        break
+    elif input_command == 1:
+        user = input('Enter user (example: "user555"): ')
+        print()
+        print(f'Distance sum for {user}: {bikes.distance_of_user(user)}')
+    elif input_command == 2:
+        user = input('Enter user (example: "user555"): ')
+        print()
+        print(f'Average speed for {user}: {bikes.speed_of_user(user)}')
+    elif input_command == 3:
+        day = input('Enter day (example: "2021-06-15"): ')
+        print()
+        print(f'Duration sum for each city for {day}: {bikes.duration_in_each_city(day)}')
+    elif input_command == 4:
+        city = input('Enter city (example: "city7"): ')
+        print()
+        print(f'User amount for {city}: {bikes.users_in_city(city)}')
+    elif input_command == 5:
+        city = input('Enter city (example: "city7"): ')
+        print()
+        print(f'Daily trip amount for {city}: {bikes.trips_on_each_day(city)}')
+    elif input_command == 6:
+        city = input('Enter city (example: "city7"): ')
+        print()
+        print(f'Most popular station and number of trips for {city}: {bikes.most_popular_start(city)}')
+
