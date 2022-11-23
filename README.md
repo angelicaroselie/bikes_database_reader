@@ -1,6 +1,6 @@
 # This is a README file for this program that fetch data from bikes.db.
 
-## This project was created for HY Basics of databases course
+## This project was created for HY Basics of databases course, and further developed by me
 
 ## Installation
 
