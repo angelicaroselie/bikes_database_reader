@@ -1,4 +1,4 @@
-# This is a README file for this program that fetch data from bikes.db.
+# Python based bike database (SQLite) reader
 
 ## This project was created for HY Basics of databases course, and further developed by me
 
