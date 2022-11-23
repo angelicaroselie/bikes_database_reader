@@ -1,9 +1,9 @@
 # Python based bike database (SQLite) reader
 
-## This project was created for HY Basics of databases course, and further developed by me
+## This project was created for University of Helsinki: Basics of databases course, and it's further developed by me.
 
-## Installation
+## Installation: 
 
-### Search information how to install python3 and SQLite on your system.
-### Download the source code
-### Run the main file with python3
+1. Search information how to install python3 and SQLite on your system.
+2. Download the source code
+3. Run the main file with Python3
